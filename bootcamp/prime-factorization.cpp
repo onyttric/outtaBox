@@ -22,7 +22,7 @@ void sieve() {
     }
 }
 
-vector <int> factors, expo;
+vector <int> factors;
 void factorize (int n) {
     int sqrtn = sqrt(n);
     for (int i = 0; i < primes.size() && primes[i] <= sqrtn; i++) {
